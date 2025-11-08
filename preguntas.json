@@ -1,6 +1,6 @@
 [
     {
-        "pregunta":"Que es uva variable en programación",
+        "pregunta":"Que es una variable en programación",
         "opciones":["Almacena información", "Imprime texto", "Es un bucle", "No sirve para nada"],
         "correcta": "Almacena información"
     }
