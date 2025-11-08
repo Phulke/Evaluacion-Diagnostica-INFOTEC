@@ -124,7 +124,7 @@ if modo == "Administrador":
                 preguntas.append({
                     "pregunta": nueva_pregunta,
                     "opciones": [o.strip() for o in opciones.split(",")],
-                    "correcta": o.strip()
+                    "correcta": correcta.strip()
                 })
                 with open (archivo_preguntas, "w") as f:
                     json.dump(preguntas, f)
