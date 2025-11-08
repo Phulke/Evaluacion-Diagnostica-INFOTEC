@@ -87,7 +87,7 @@ if modo == "Alumno":
                 "puntaje": sum([1 for r,p in zip(respuestas,preguntas) if r == p["correcta"]]),
                 "nivel": nivel
             }
-            guardar_respuestas(datos)
+            guardar_respuesta(datos)
             st.success(f"Gracias! Tu nivel es: {nivel}")
 
 #Modo administrador
